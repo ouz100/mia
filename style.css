@@ -1,0 +1,95 @@
+.container{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+}
+.formu{
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    background-color: #36070e; 
+}
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: none; 
+    border-bottom:1px black solid ; 
+    padding-left: 10px; 
+}
+
+
+.image{
+    width: 30%;
+    height: 100%;
+}
+
+.pp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dive1{
+    right: 20px;
+    display: flex;
+    margin: auto;
+    gap: 8px;
+    -webkit-animation-name: chgt-couleur;
+    -webkit-animation-direction: 5s;
+
+}
+
+.button1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+
+select{
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+
+.button2{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #cf755c;
+    color: black;
+}
+.button2 .span1{
+    width: 120px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    background-color: #cf755c;
+    top: 13px;
+}
+
+.pointe p{
+    color: #cf755c;
+    top: 13px;
+}
